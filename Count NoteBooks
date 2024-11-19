@@ -1,0 +1,4 @@
+a = int(input())
+tp = a * 1000
+n = tp // 100
+print(n)
