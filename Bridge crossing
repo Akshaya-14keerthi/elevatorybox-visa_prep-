@@ -1,0 +1,7 @@
+a,p,r = map(int,input().split())
+max_weight_for_mangoes = r - p
+if max_weight_for_mangoes >= 0:
+    m = max_weight_for_mangoes//a
+else:
+    m = 0
+print(m)
