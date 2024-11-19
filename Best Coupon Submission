@@ -1,0 +1,5 @@
+a = int(input())
+cod1 = a - (0.1*a)
+cod2 = a - 100
+price = min(cod1,cod2)
+print(int(price))
